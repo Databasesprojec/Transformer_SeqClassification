@@ -34,7 +34,7 @@ The project repository is organized into distinct folders, each serving a specif
 * Transformer_SeqClass_FinalTraining.ipynb: This Jupyter Notebook is responsible for executing the final training process and saving the associated evaluation results and trained model weights.
 * Transformer_SeqClass_Inference.ipynb: Lastly, this Jupyter Notebook allows you to generate predictions using a trained model derived from the execution of Transformer_SeqClass_FinalTraining.ipynb.
 
-### Executing program (I)
+### Executing program
 
   To execute our project successfully, follow these steps:
   
@@ -79,7 +79,7 @@ The project repository is organized into distinct folders, each serving a specif
 
 Description of datasets used to train models. Their make up and locations/names of Hub.
 
-[HF-Hub](https://huggingface.co/datasets/Databasesprojec/FinStmts_ConsUncons_Reduced_UndersampleMajority_French_SeqClass)
+[HF-Hub](https://huggingface.co/datasets/Databasesprojec)
 
 ### Origin of data (H)
 
@@ -91,4 +91,4 @@ Which part of the data are we using for training and why. (H)
 
 ## Appendix (H,S)
 
-You can find the online appendix for this project [here](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/Online%20Appendix.xlsx).
+You can find the online appendix for this project [here](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/Online%20Appendix.xlsx). Please be advised that this file is not viewable directly on GitHub. Kindly download it to access its contents.
