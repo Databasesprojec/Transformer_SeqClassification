@@ -1,1 +1,5 @@
-/old/*
+/datasets/*
+/trained_model/*
+/training_data/*
+/modelconfigs/*
+/trained_models/*
