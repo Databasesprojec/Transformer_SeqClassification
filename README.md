@@ -91,4 +91,4 @@ Which part of the data are we using for training and why. (H)
 
 ## Online Appendix 
 
-You can find the online appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true). 
+You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true). 
