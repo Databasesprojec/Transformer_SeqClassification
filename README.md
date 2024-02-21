@@ -4,7 +4,7 @@ This repo provides the code and the dataset used for the project "On the Pitfall
 
 ## Description (H)
 
-An in-depth paragraph about your project and overview of use.
+An in-depth paragraph about the project and overview of use.
 
 ## Getting Started
 
@@ -89,6 +89,6 @@ How was the data complied, extracted, cleaned, and any other steps applied.
 
 Which part of the data are we using for training and why. (H)
 
-## Appendix (H,S)
+## Online Appendix 
 
 You can find the online appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true). 
