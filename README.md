@@ -91,4 +91,4 @@ Which part of the data are we using for training and why. (H)
 
 ## Appendix (H,S)
 
-You can find the online appendix for this project [here](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/Online%20Appendix.xlsx). Please be advised that this file is not viewable directly on GitHub. Kindly download it to access its contents.
+You can find the online appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true). Please be advised that this file is not viewable directly on GitHub. Kindly download it to access its contents.
