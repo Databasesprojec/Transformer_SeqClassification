@@ -1,10 +1,15 @@
 # Transformer_SeqClassification
 
-This repo provides the code and the dataset used for the project "On the Pitfalls of Insufficient Disclosure of Commercial Databases’ Coding Policies – A Case Replication of Noncompliance with Mandatory IFRS Adoption".
+This repo provides the code and the dataset used for the project "Following the blind? Database Policies and the Case of IFRS Noncompliance".
 
-## Description (H)
+Github for project 
 
-An in-depth paragraph about the project and overview of use.
+
+## Description
+
+We present a case illustrating the pitfalls of insufficient disclosure of commercial databases’ coding policies. In response to the data gap that we identify, we showcase the application of Bidirectional Encoder Representations from Transformers (BERT) models for extracting the consolidation status and offer guidance for coding IFRS-mandated firms. 
+This github provides access to a customizable Python code that we used to fine-tuning the pre-trained Bidirectional Encoder Representations from Transformers (BERT) models for classifying the consolidation status of financial statements, and which can be used for similar classification tasks.
+Additionally, On HuggingFace, we provide researchers with our BERT training datasets, the BERT base model’s predicted consolidation classification, and an identifier file with links to Worldscope. The training datasets are described below.
 
 ## Getting Started
 
@@ -75,20 +80,41 @@ The project repository is organized into distinct folders, each serving a specif
 
 ## Data
 
-### Datasets (H)
+### Datasets
 
-Description of datasets used to train models. Their make up and locations/names of Hub.
+All of our datasets used in training or for prediction can be acccessed via HuggingFace
+on this hub you can find:
+1. identifiers: file contains unique identifier for each report downloaded from Perfect Information and used in the training or prediction process. For each file we provide:
+   * filename: unique identifer for each report downloaded from Perfect Information database
+   * wc06035: Worldscope identifier
+   * Year: year as defined by PW
+3. Our training and prediction datasets, for each dataset, we provide the following variables:
+    * label: binary consolidation label for the report (1=consolidated, 0=unconsolidated)
+    * id: unique filename identifier
+    * text: text extract from the report that was used in the training process
+   We provide the following training datasets:
+  * English_short_window_training: dataset used for training for English language reports using our short window (one segment of 512 tokens) specification
+  * English_long_window_training: dataset used for training for English language reports using our short window (six segments of 512 tokens) specification
+  * German_training: dataset used for training for German language reports using our short window (one segment of 512 tokens) specification
+  * French_training: dataset used for training for French language reports using our short window (one segment of 512 tokens) specification
+  and we provide the following prediction datasets:
+  * English_short_window_Predict1 to English_short_window_Predict5: Predictions for the English report sample using our short window specification
+  * English_Long_window_Predict: Predictions for the English report sample using our long-window specification
 
-[HF-Hub](https://huggingface.co/datasets/Databasesprojec)
+### Origin of data
 
-### Origin of data (H)
+Our training and prediction datasets are obtained from Perfect Information database as collected by Daske et al. (2023).
+* For the English language training sample: We pre-select a sample of 2,326 documents to include more unconsolidated reports in our dataset, and we manually label these reports (54% labeled as consolidated and 46% as unconsolidated)
+* For the French language training sample: our sample of 5,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012
+* For the German language training sample: our sample of 7,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012.
 
-How was the data complied, extracted, cleaned, and any other steps applied.
+### Dataset preparation (for model training)
 
-### Dataset preparation (for model training) (H)
-
-Which part of the data are we using for training and why. (H)
+Each training dataset is partitioned into training (70%), validation (15%), and testing (15%) subsets.
 
 ## Online Appendix 
 
-You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true). 
+* You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true)
+* [HuggingFace](https://huggingface.co/Databasesprojec)
+* Daske, H., Sergeni, C., and M. Uckert. 2023. Unstandardized Accounting Language, Working Paper.  
+De George, E. T., X. Li, and L. Shivakumar. 2016. A review of the IFRS adoption literature. Review of Accounting Studies, 21 (3): 898–1004, [https://doi.org/10.1007/s11142-016-9363-1](https://doi.org/10.1007/s11142-016-9363-1). 
