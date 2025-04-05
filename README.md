@@ -1,15 +1,13 @@
 # Transformer_SeqClassification
 
-This repo provides the code and the dataset used for the project "Following the blind? Database Policies and the Case of IFRS Noncompliance".
+This repo provides the code used for the project "Following the blind? Database Policies and the Case of IFRS Noncompliance".
 
-Github for project 
+You find the datasets we used on Hugging Face Hub. [here](https://huggingface.co/Databasesprojec)
 
 
-## Description
+## Description Project
 
-We present a case illustrating the pitfalls of insufficient disclosure of commercial databases’ coding policies. In response to the data gap that we identify, we showcase the application of Bidirectional Encoder Representations from Transformers (BERT) models for extracting the consolidation status and offer guidance for coding IFRS-mandated firms. 
-This github provides access to a customizable Python code that we used to fine-tuning the pre-trained Bidirectional Encoder Representations from Transformers (BERT) models for classifying the consolidation status of financial statements, and which can be used for similar classification tasks.
-Additionally, On HuggingFace, we provide researchers with our BERT training datasets, the BERT base model’s predicted consolidation classification, and an identifier file with links to Worldscope. The training datasets are described below.
+We present a case illustrating the pitfalls of insufficient disclosure of commercial databases’ coding policies. In response to the identified data gap, we showcase the application of Encoder-Only Transformer models (e.g., BERT, RoBERTa, FinBERT) to extract consolidation status and offer guidance for coding IFRS-mandated firms. This GitHub repository provides access to the customizable Python code used to fine-tune and train our Encoder-Only models. Additionally, on HuggingFace we offer researchers our training/validation/test and prediction datasets, the "BERT base" model’s predicted classifications, and an identifier file with links to Worldscope. The training datasets are described below.
 
 ## Getting Started
 
@@ -117,10 +115,6 @@ Our training and prediction datasets are obtained from Perfect Information datab
 * For the English language training sample: We pre-select a sample of 2,326 documents to include more unconsolidated reports in our dataset, and we manually label these reports (54% labeled as consolidated and 46% as unconsolidated)
 * For the French language training sample: our sample of 5,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012
 * For the German language training sample: our sample of 7,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012.
-
-### Dataset preparation (for model training)
-
-Each training dataset is partitioned into training (70%), validation (15%), and testing (15%) subsets.
 
 ## Links
 
