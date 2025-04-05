@@ -15,9 +15,17 @@ Additionally, On HuggingFace, we provide researchers with our BERT training data
 
 ### Dependencies
 
-This project utilizes Python 3.12.8 and leverages the Hugging Face Transformers library to fine-tune encoder-only transformer models—such as BERT and RoBERTa—for a sequence classification task. The Hugging Face Trainer module significantly streamlines the training and fine-tuning processes, allowing for efficient experimentation with various model architectures.
+This project is built using Python 3.12.8 and leverages the Hugging Face Transformers library to fine-tune encoder-only transformer models—such as BERT and RoBERTa—for sequence classification tasks. The Hugging Face Trainer module simplifies the training and fine-tuning process, enabling efficient experimentation with different model architectures.
 
-To get the code running seamlessly, please refer to the provided ([requirements.txt](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/requirements.txt)) file (created on a Linux distribution) for the complete list of packages and their specific version numbers. Keep in mind that while the majority of these dependencies work across different operating systems, certain packages—especially those related to GPU acceleration and OS-specific components—may need manual installation adjustments on non-Linux systems. For instance, ensure that you follow the PyTorch installation guide to select the correct version for your environment.
+Important: Due to some version pinning issues with PyTorch on Python 3.12, please follow these steps to get the code running:
+
+1) Manually install PyTorch:
+Visit the [PyTorch](https://pytorch.org/get-started/locally/) website and install the appropriate build for your system.
+
+2) Install remaining dependencies:
+Once PyTorch is installed, proceed to install the rest of the required packages from the provided [requirements.txt](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/requirements.txt) file.
+
+Note: The requirements.txt file was created on a Linux distribution and includes some OS-dependent packages. You may need to adjust or manually install certain packages if you are running on a different operating system.
 
 ### Project Structure
 
