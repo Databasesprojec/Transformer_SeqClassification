@@ -35,7 +35,7 @@ class CustomTrainer(Trainer):
         self.loss_fcts = {"wce": self.weighted_cross_entropy, "f1": self.soft_f1, "mcc": self.soft_mcc, "ce":super().compute_loss}
         self.class_weights = class_weights
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
         """
         Overwrite parent's compute_loss, this function will return the desired loss for
         function specified during initialization of class.
