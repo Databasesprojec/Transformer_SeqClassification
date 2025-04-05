@@ -15,9 +15,9 @@ Additionally, On HuggingFace, we provide researchers with our BERT training data
 
 ### Dependencies
 
-* In this project, we leveraged the power of Python and the Hugging Face Transformers library to fine-tune multiple encoder-only transformer models, including BERT and RoBERTa, on a sequence classification task. The Hugging Face Trainer module facilitated efficient training and fine-tuning processes, streamlining the experimentation with different model architectures. To replicate our environment and ensure reproducibility, a comprehensive list of the required packages, including dependencies and their versions, is provided in the requirements.txt file. These dependencies encompass fundamental libraries and Hugging Face Transformers, creating a seamless and consistent development environment for anyone wishing to explore to this project. ([requirements.txt](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/requirements.txt))
-* Additionally, it's important to note that certain packages in the requirements.txt file are OS-dependent, requiring manual installation based on the operating system you intend to run the code on.
-* To install the correct version of [PyTorch](https://pytorch.org) please follow the installation guide provided via the link.
+This project utilizes Python 3.12.8 and leverages the Hugging Face Transformers library to fine-tune encoder-only transformer models—such as BERT and RoBERTa—for a sequence classification task. The Hugging Face Trainer module significantly streamlines the training and fine-tuning processes, allowing for efficient experimentation with various model architectures.
+
+To get the code running seamlessly, please refer to the provided ([requirements.txt](https://github.com/Databasesprojec/Transformer_SeqClassification/blob/main/requirements.txt)) file (created on a Linux distribution) for the complete list of packages and their specific version numbers. Keep in mind that while the majority of these dependencies work across different operating systems, certain packages—especially those related to GPU acceleration and OS-specific components—may need manual installation adjustments on non-Linux systems. For instance, ensure that you follow the PyTorch installation guide to select the correct version for your environment.
 
 ### Project Structure
 
