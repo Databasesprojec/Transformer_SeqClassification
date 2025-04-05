@@ -92,24 +92,24 @@ The project repository is organized into distinct folders, each serving a specif
 
 All of our datasets used in training or for prediction can be acccessed via HuggingFace
 on this hub you can find:
-1. identifiers: file contains unique identifier for each report downloaded from Perfect Information and used in the training or prediction process. For each file we provide:
-   * filename: unique identifer for each report downloaded from Perfect Information database
-   * wc06035: Worldscope identifier
-   * Year: year as defined by PW
+1. identifiers: file contains unique identifier for each report downloaded from Perfect Information and used in the training or prediction process. in identifiers we provide:
+   * filename: unique identifer for each report downloaded from Perfect Information database.
+   * wc06035: Worldscope identifier.
+   * Year: year as defined by PW.
 3. Our training and prediction datasets, for each dataset, we provide the following variables:
     * label: binary consolidation label for the report (1=consolidated, 0=unconsolidated)
     * id: unique filename identifier
     * text: text extract from the report that was used in the training process
    We provide the following training datasets:
-  * English_short_window_training: dataset used for training for English language reports using our short window (one segment of 512 tokens) specification
-  * English_long_window_training: dataset used for training for English language reports using our short window (six segments of 512 tokens) specification
-  * German_training: dataset used for training for German language reports using our short window (one segment of 512 tokens) specification
-  * French_training: dataset used for training for French language reports using our short window (one segment of 512 tokens) specification
+  * English_short_window_training: dataset used for training for English language reports using our short window (one segment of 512 tokens) specification.
+  * English_long_window_training: dataset used for training for English language reports using our short window (six segments of 512 tokens) specification.
+  * German_training: dataset used for training for German language reports using our short window (one segment of 512 tokens) specification.
+  * French_training: dataset used for training for French language reports using our short window (one segment of 512 tokens) specification.
   and we provide the following prediction datasets:
-  * English_short_window_Predict1 to English_short_window_Predict5: Predictions for the English report sample using our short window specification
-  * English_Long_window_Predict: Predictions for the English report sample using our long-window specification
+  * English_short_window_Predict1 to English_short_window_Predict5: Predictions for the English report sample using our short window specification.
+  * English_Long_window_Predict: Predictions for the English report sample using our long-window specification.
 
-### Origin of data
+### Origin of Data
 
 Our training and prediction datasets are obtained from Perfect Information database as collected by Daske et al. (2023).
 * For the English language training sample: We pre-select a sample of 2,326 documents to include more unconsolidated reports in our dataset, and we manually label these reports (54% labeled as consolidated and 46% as unconsolidated)
@@ -118,6 +118,5 @@ Our training and prediction datasets are obtained from Perfect Information datab
 
 ## Links
 
-* You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?eusp=sharing&ouid=109673089167156036958&rtpof=true&sd=true)
 * [HuggingFace](https://huggingface.co/Databasesprojec)
-* Daske, H., Sergeni, C., and M. Uckert. 2023. Unstandardized Accounting Language, Working Paper. 
+* Daske, H., Sergeni, C., & Uckert, M. (2023). Unstandardized accounting language [[Working paper]].  
