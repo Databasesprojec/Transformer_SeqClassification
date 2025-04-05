@@ -49,9 +49,11 @@ The project repository is organized into distinct folders, each serving a specif
 
 ### Executing program
 
+ This repository offers both Jupyter notebooks and traditional Python scripts to cater to your workflow preferences. You can use the notebooks for an interactive environment or opt for the Python   scripts if you should so prefer.
+
   To execute our project successfully, follow these steps:
   
-  **1) Initial Hyperparameter Search (Transformer_SeqClass_HyperParamSearch.ipynb):**
+  **1) Initial Hyperparameter Search (Transformer_SeqClass_HyperParamSearch):**
   
   In this notebook, configure the settings based on the specific task at hand.
   
@@ -70,13 +72,13 @@ The project repository is organized into distinct folders, each serving a specif
   
   After configuring the settings, execute the code. This produces several outcomes: training data and checkpoints for each trial run, the best hyperparameters discovered, and an instance of the ModelConfig.py class.
   
-  **2) (Optional) Continuation of Hyperparameter Search (Transformer_SeqClass_HyperParamSearch.ipynb):**
+  **2) (Optional) Continuation of Hyperparameter Search (Transformer_SeqClass_HyperParamSearch):**
   
   Following the initial hyperparameter search and the creation of a ModelConfig.py instance, subsequent runs are easily performed by setting `_flag_first_run` to False and providing the name of the ModelConfig.py instance, created during the initial run, to `_name_config_file`. Additionally, adjust `_num_trials` to the desired number of trials to perform.
   
   The remaining settings are extracted from the provided ModelConfig.py instance. After notebook execution, the ModelConfig.py instance is updated.
   
-  **3) Final Training (Transformer_SeqClass_FinalTraining.ipynb):**
+  **3) Final Training (Transformer_SeqClass_FinalTraining):**
   
   The final training requires minimal configuration as most crucial variables are extracted from the ModelConfig.py instance.
   
