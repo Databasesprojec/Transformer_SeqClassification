@@ -119,4 +119,4 @@ Our training and prediction datasets are obtained from Perfect Information datab
 ## Links
 
 * [HuggingFace](https://huggingface.co/Databasesprojec)
-* Daske, H., Sergeni, C., & Uckert, M. (2023). Unstandardized accounting language [[Working paper]].  
+* Daske, H., Sergeni, C., & Uckert, M. (2023). Unstandardized accounting language [Working paper].  
