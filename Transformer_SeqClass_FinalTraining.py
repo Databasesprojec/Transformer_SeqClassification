@@ -33,10 +33,6 @@ import utility.utility as util
 import utility.CustomTrainer as ct
 import utility.ModelConfig as mc
 
-# resets import once changes have been applied
-get_ipython().run_line_magic('load_ext', 'autoreload')
-get_ipython().run_line_magic('autoreload', '2')
-
 
 # # Global Settings:
 
