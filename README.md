@@ -118,7 +118,6 @@ Our training and prediction datasets are obtained from Perfect Information datab
 
 ## Links
 
-* You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?usp=sharing&ouid=109673089167156036958&rtpof=true&sd=true)
+* You can find the Online Appendix for this project [here](https://docs.google.com/spreadsheets/d/1Duahh1X_zny5R5SrQ9F4y_rDtohJGvxo/edit?eusp=sharing&ouid=109673089167156036958&rtpof=true&sd=true)
 * [HuggingFace](https://huggingface.co/Databasesprojec)
-* Daske, H., Sergeni, C., and M. Uckert. 2023. Unstandardized Accounting Language, Working Paper.  
-De George, E. T., X. Li, and L. Shivakumar. 2016. A review of the IFRS adoption literature. Review of Accounting Studies, 21 (3): 898–1004, [https://doi.org/10.1007/s11142-016-9363-1](https://doi.org/10.1007/s11142-016-9363-1). 
+* Daske, H., Sergeni, C., and M. Uckert. 2023. Unstandardized Accounting Language, Working Paper. 
