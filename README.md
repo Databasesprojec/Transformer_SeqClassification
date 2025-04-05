@@ -19,7 +19,7 @@ This project is built using Python 3.12.8 and leverages the Hugging Face Transfo
 
 Important: Due to some version pinning issues with PyTorch on Python 3.12, please follow these steps to get the code running:
 
-1) Manually install PyTorch:
+1) Manually install PyTorch Build (Stable 2.6.0):
 Visit the [PyTorch](https://pytorch.org/get-started/locally/) website and install the appropriate build for your system.
 
 2) Install remaining dependencies:
