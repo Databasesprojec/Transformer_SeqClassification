@@ -25,7 +25,7 @@ Once PyTorch is installed, proceed to install the rest of the required packages 
 
 Note: The requirements.txt file was created on a Linux distribution and includes some OS-dependent packages. You may need to adjust or manually install certain packages if you are running on a different operating system.
 
-### Project Structure
+### Code Structure
 
 The project repository is organized into distinct folders, each serving a specific purpose:
 
