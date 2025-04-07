@@ -116,7 +116,12 @@ Our training and prediction datasets are obtained from Perfect Information datab
 * For the French language training sample: our sample of 5,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012
 * For the German language training sample: our sample of 7,000 documents (90% labeled as consolidated), is randomly extracted from our Perfect Information dataset, and we reply on the Worldscope data item “Accounting Method For Long Term Investment>50%” (WC07531) for labeling these reports since it is reliable for the years before 2012.
 
-## Links
+## Appendices and Supporting Information
 
 * [HuggingFace](https://huggingface.co/Databasesprojec)
-* Daske, H., Sergeni, C., & Uckert, M. (2023). Unstandardized accounting language [Working paper].  
+* Daske, H., Sergeni, C., & Uckert, M. (2023). Unstandardized accounting language [Working paper].
+* [Appendix S1] (https://github.com/Databasesprojec/Transformer_SeqClassification/blob/5290d1af3947c54b2b584c366fbe5caea9d3c4c2/Appendix%20S1.xlsx)
+* [Appendix S2] (https://github.com/Databasesprojec/Transformer_SeqClassification/blob/5290d1af3947c54b2b584c366fbe5caea9d3c4c2/Appendix%20S2.docx)
+* [Appendix S3] (https://github.com/Databasesprojec/Transformer_SeqClassification/blob/5290d1af3947c54b2b584c366fbe5caea9d3c4c2/Appendix%20S3.docx)
+* [Appendix S4] (https://github.com/Databasesprojec/Transformer_SeqClassification/blob/5290d1af3947c54b2b584c366fbe5caea9d3c4c2/Appendix%20S4.docx)
+* [Appendix S5] (https://github.com/Databasesprojec/Transformer_SeqClassification/blob/5290d1af3947c54b2b584c366fbe5caea9d3c4c2/Appendix%20S5.docx)
